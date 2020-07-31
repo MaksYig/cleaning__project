@@ -47,14 +47,15 @@ body {
 
 .main__btn{
 
+
   a{
     background-color: $yellow;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     border-radius: 33.5px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     width: 219px;
 
@@ -69,4 +70,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 60px;
+}
+.section__text{
+  max-width: 672px;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  margin:0 auto 70px auto;
+
 }
