@@ -1,0 +1,239 @@
+@media (max-width: 1200px) {
+  .type__wrapper {
+    flex-wrap: wrap;
+  }
+  .type__item {
+    max-width: 100%;
+    width: 100%;
+  }
+  .type__item-right {
+    padding-left: 0;
+  }
+  .type__item-left {
+    padding-right: 0;
+    &::after {
+      display: none;
+    }
+  }
+  .type__item-img-left,
+  .type__item-img-right {
+    float: left;
+    margin-right: 10px;
+  }
+  .choose__item + .choose__item {
+    margin-left: 0px;
+  }
+  .news {
+    padding: 60px 0 60px 0;
+}
+.news__wrapper{
+  align-items:center;
+  justify-content: space-around;
+}
+}
+
+@media (max-width: 1120px) {
+  body.block{
+    overflow: hidden;
+  }
+  .header__nav-menu {
+display: none;
+  }
+  .footer__nav-menu{
+    display: none;
+  }
+  .burger__menu {
+    display: block;
+  }
+  .header__content-text {
+    background-color: #f2f9ff;
+    padding: 10px;
+    border-radius: 23.5px;
+  }
+  .type__item-img-left,
+  .type__item-img-right {
+    width: 425px;
+    height: 300px;
+    img {
+      width: 425px;
+    }
+  }
+  .choose__item {
+    margin-top: 20px;
+  }
+  .pricing__wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .pricing__item {
+    margin-top: 20px;
+  }
+  .pricing {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 970px) {
+  .type__item-right,
+  .type__item-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .type__item-content {
+    width: 100%;
+    max-width: 100%;
+  }
+  .type__item-text {
+    padding: 0 25px;
+    text-align: center;
+  }
+  .choose {
+    padding-bottom: 60px;
+  }
+  .footer__top-wrapper{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+  }
+  .footer__social{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .header__content-subtitle {
+    font-size: 26px;
+    margin-bottom: 35px;
+  }
+  .header__content-title {
+    font-size: 50px;
+    margin-bottom: 46px;
+  }
+  .choose__inner {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .header__top-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__top-social li a {
+    line-height: 15px;
+  }
+  .header__content-subtitle {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .header__content-title {
+    font-size: 42px;
+    margin-bottom: 40px;
+    background-color: #f2f9ff;
+    padding-right: 10px;
+    padding-top: 10px;
+    // border-radius: 23.5px;
+  }
+  .header__content-text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+  .main__btn a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+  }
+  .reviews__item-title {
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 485px) {
+  .header__content-main-wrapper {
+    background-position: top center;
+  }
+  .header__content-block {
+    align-items: center;
+  }
+  .header__content-subtitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .header__content-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .header__content-text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+  .header__top-info {
+    font-size: 11px;
+  }
+  .type__item-img-left,
+  .type__item-img-right {
+    width: 350px;
+    height: 246px;
+    margin-right: 0;
+    margin-bottom: 35px;
+    img {
+      width: 350px;
+    }
+  }
+  .type__item-text {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .type__item-list li {
+    font-size: 14px;
+  }
+  .like {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .like__wrapper {
+    width: 150px;
+    height: 150px;
+  }
+  .discount__title {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+  .discount__content{
+    padding-top: 0;
+    padding-bottom: 55px;
+  }
+  .news__item-img {
+    width: 330px;
+    margin-bottom: 30px;
+    img{
+      width: 330px;
+    }
+}
+.news__item-text{
+  font-size: 18px;
+}
+.footer__contact{
+  margin-top: 20px;
+}
+.footer__social-form input {
+  width: 350px;
+}
+.footer__social-icons{
+  display: flex;
+  justify-content: center;
+}
+.footer__copy {
+  font-size: 12px;
+
+}
+.header__nav {
+  padding-top: 10px;
+}
+}
