@@ -45,16 +45,16 @@
               </div>
               <nav class="header__nav-menu" id="menu">
                 <ul class="header__nav-menu-list">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#ex1">About</a></li>
-                  <li><a href="#ex2">Services</a></li>
-                  <li><a href="#ex3">Offers</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#ex2">About</a></li>
+                  <li><a href="#ex1">Services</a></li>
+                  <li><a href="#ex5">Offers</a></li>
                   <li><a href="#ex4">Pricing</a></li>
-                  <li><a href="#ex5">Reviews</a></li>
+                  <li><a href="#ex3">Reviews</a></li>
                   <li><a href="#ex6">Contact</a></li>
                 </ul>
                 <div class="header__nav-btn">
-                  <a href="#" class="header__btn">Request an Estimate</a>
+                  <a href="/" class="header__btn" data-popup-open>Request an Estimate</a>
                 </div>
               </nav>
               
@@ -73,7 +73,7 @@
                 <div class="header__content-title">WE CLEAN FOR YOU!</div>
                 <div class="header__content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</div>
                 <div class="header__content-btn main__btn">
-                  <a href="#ex3">See our offer</a>
+                  <a href="#ex4">See our offer</a>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@
       </header>
 
 
-<section class="type" id="ex2">
+<section class="type" id="ex1">
   <div class="container">
     <div class="type__wrapper">
       <div class="type__item type__item-left">
@@ -111,7 +111,7 @@
           </ul>
         </div>
         <div class="type__item-btn main__btn">
-          <a href="#">REQUEST AN ESTIMATE</a>
+          <a href="#"data-popup-open>REQUEST AN ESTIMATE</a>
         </div>
       </div>
       <div class="type__item type__item-right">
@@ -140,7 +140,7 @@
           </ul>
         </div>
         <div class="type__item-btn main__btn">
-          <a href="#">REQUEST AN ESTIMATE</a>
+          <a href="#" data-popup-open>REQUEST AN ESTIMATE</a>
         </div>
       </div>
     </div>
@@ -155,7 +155,7 @@
 </div>
 </section>
 
-<section class="choose" id="ex1">
+<section class="choose" id="ex2">
   <div class="container">
     <div class="section__title">
       why choose us?
@@ -193,7 +193,7 @@
   </div>
 </section>
 
-<section class="reviews" id="ex5">
+<section class="reviews" id="ex3">
   <div class="container__big">
     
     <div class="reviews__slider">
@@ -332,7 +332,7 @@
   </div>
 </section>
 
-<section class="discount" id="ex3">
+<section class="discount" id="ex5">
   <div class="discount__wrapper" style="background-image: url('img/content/discount-bg.jpg');" >
     <div class="discount__discount" >
       35 <p>%</p>
@@ -434,7 +434,7 @@
         <img src="img/content/logo__footer.png" alt="">
       </div>
       <div class="footer__logo-btn main__btn">
-        <a href="#">REQUEST AN ESTIMATE</a>
+        <a href="#" data-popup-open>REQUEST AN ESTIMATE</a>
       </div>
       </div>
       <div class="footer__contact">
@@ -481,11 +481,28 @@
     </div>
     </div>
   </footer>
+<!-- Popup -->
 
+<div class="popup request" data-popup>
+<div class="popup__container">
+  <div class="popup__content">
+    <form>
+      <div class="form__title">
+        Contact request
+      </div>
+      <input type="text" name="name" placeholder="your name">
+      <input type="email" name="email" placeholder="your mail">
+      <input type="tel" name="phone" placeholder="your phone">
+      <button>Send request</button>
+    </form>
+  </div>
+</div>
+
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
-    <DIV ID = "toTop" > Scroll Up </ DIV >
+    
   </body>
 </html>

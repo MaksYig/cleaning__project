@@ -67,7 +67,8 @@
   .footer__nav-menu {
     display: flex;
     align-items: center;
-    transition: all .5s;
+    transition: top .9s ease;
+    
     &-list {
       li {
         display: inline-block;
@@ -92,13 +93,14 @@
       align-items:center;
       justify-content: center;
       position: absolute;
+      opacity: 1;
       top: 0px;
       background-color: rgba(#ecf6fe, 1);
       width: 100%;
       height: 100vh;  
       padding-top: 40px;
       margin-left: -15px;
-      transition: all .5s;
+      transition: top 0.9s ease;
       .header__nav-menu-list{
         display: flex;
         flex-direction: column;
@@ -728,5 +730,67 @@
 }
 
 /* End footer section */
+
+/* popup */
+.popup{
+  position: fixed;
+ background-color: rgba(0, 0, 0, 0.65);
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 1050;
+ &__container{
+   margin: 100px auto;
+   max-width: 600px;
+   
+ }
+ &__content{
+  position: relative;
+ 
+   width: 100%;
+   background-color: #fff;
+   padding: 40px 25px;
+   border-radius: 10px;
+   overflow-y: auto;
+ }
+ form{
+   .form__title{
+     text-align: center;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+     font-weight: 600;
+   }
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   input{
+    outline: none;
+     max-width: 500px;
+     width: 100%;
+     height: 40px;
+     padding-left: 20px;
+     margin-bottom: 15px;
+
+   }
+   button{
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 21.5px;
+    background-color: $yellow;
+    padding: 10px 15px;
+    margin-left: 65px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    align-self: flex-end;
+
+   }
+ }
+}
+/* popup end */
 
 @import "media";

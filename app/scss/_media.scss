@@ -37,7 +37,10 @@
     overflow: hidden;
   }
   .header__nav-menu {
-display: none;
+    opacity: 0;
+    position: absolute;
+    top: -1000px;
+    transition: top 0.9s;
   }
   .footer__nav-menu{
     display: none;
